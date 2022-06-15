@@ -1,0 +1,20 @@
+.content {
+    height: calc(100vh - 70px);
+}
+
+.preview {
+    width: 100%;
+    height: 100%;
+}
+
+.loading {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 28px;
+    font-weight: 600;
+    background-color: #203847;
+    color: #fff;
+}

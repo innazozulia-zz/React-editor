@@ -1,0 +1,39 @@
+.header {
+    height: 70px;
+    flex-shrink: 0;
+    background-color: #1f3847;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 2px solid #13212b;
+    padding: 0 15px;
+    gap: 14px;
+}
+
+.button {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7fa9c7;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 0 15px;
+    font-size: 16;
+    font-weight: 600;
+}
+
+.button:hover {
+    background-color: #9ac9ed;
+}
+
+.camera {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 50%;
+    z-index: 111;
+}
+
+/* background-color: #1f3847; */

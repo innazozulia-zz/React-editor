@@ -1,0 +1,8 @@
+.main {
+    flex: 1;
+    border-left: 2px solid salmon;
+}
+
+.wrapper {
+    display: flex;
+}
